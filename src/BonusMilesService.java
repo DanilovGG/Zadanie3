@@ -3,6 +3,6 @@ public class BonusMilesService {
         // Рассчитываем количество миль, начисляемых за билет
         int miles = ticketPrice / 20;
         // Округляем до ближайшего целого числа
-        return (int) (miles);
+        return (int) miles;
     }
 }
